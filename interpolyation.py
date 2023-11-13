@@ -10,7 +10,6 @@ class interpolyation:
             if X[i - 1] <= iks <= X[i]:
                 igrek = (Y[i] - Y[i - 1]) / (X[i] - X[i - 1]) * (iks - X[i - 1]) + Y[i - 1]
                 return igrek
-inter1 = interpolyation()
-inter1.add_in_list({3: 1, 4: 2, 5: 4})
-inter1.count_interpolyation(3.2)
+
+
 
