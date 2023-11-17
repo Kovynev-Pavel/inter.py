@@ -16,7 +16,7 @@ class interpolyation:
                 action1 = Y[i - 1] * ((iks - X[i]) * (iks - X[i + 1])) / ((X[i - 1] - X[i]) * (X[i - 1] - X[i + 1]))
                 action2 = Y[i] * ((iks - X[i - 1]) * (iks - X[i + 1])) / ((X[i] - X[i - 1]) * (X[i] - X[i + 1]))
                 action3 = (action1 + action2) + Y[i + 1] * ((iks - X[i - 1]) * (iks - X[i])) / ((X[i + 1] - X[i - 1]) * (X[i + 1] - X[i]))
-                print(action3)
+                return action3
 
 
 
